@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="ko">
-<title> 손앤강 </title>
+<title>깡이니 폰</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,8 +132,8 @@
 
   /* lock */
   #s-lock { cursor: pointer; }
-  .lock-date { position: absolute; left: 0; width: 393px; top: 84px; text-align: center; font-size: 17.9px; font-weight: 700; letter-spacing: -.36px; line-height: 18px; color: rgba(255,255,255,.92); }
-  .lock-time { position: absolute; left: 0; width: 393px; top: 100px; text-align: center; font-size: 105px; font-weight: 300; line-height: 105px; letter-spacing: -1px; color: rgba(255,255,255,.92); font-variant-numeric: tabular-nums; }
+  .lock-date { position: absolute; left: 0; width: 393px; top: 84px; text-align: center; font-size: 18px; font-weight: 600; letter-spacing: -.36px; line-height: 18px; color: rgba(255,255,255,.92); }
+  .lock-time { position: absolute; left: 0; width: 393px; top: 100px; text-align: center; font-family: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, Inter, "Noto Sans KR", system-ui, sans-serif; font-size: 108px; font-weight: 600; line-height: 108px; letter-spacing: -2px; color: rgba(255,255,255,.92); font-variant-numeric: tabular-nums; }
 
   /* passcode */
   #s-pass { background: #000; }
@@ -291,17 +291,17 @@
   /* notification banners (kakao) */
   .overlay { position: absolute; inset: 0; z-index: 39; pointer-events: none; clip-path: inset(13px 15px 13px 14px round 28px); }
   .banner {
-    position: absolute; left: 28.5px; top: 50px; width: 336px; height: 86.5px; border-radius: 28px;
+    position: absolute; left: 48px; top: 52px; width: 296px; height: 68px; border-radius: 22px;
     background: rgba(246,246,248,.88); -webkit-backdrop-filter: blur(30px) saturate(1.4); backdrop-filter: blur(30px) saturate(1.4);
     transform: translateY(-170px); opacity: 0; transition: transform .5s cubic-bezier(.2,.9,.25,1.05), opacity .3s ease;
     box-shadow: 0 6px 18px rgba(0,0,0,.12);
   }
   .banner.in { transform: none; opacity: 1; }
-  .banner .avatar { position: absolute; left: 11px; top: 12px; width: 62px; height: 62px; }
-  .banner .k-badge { position: absolute; left: 51.6px; top: 52.2px; width: 22px; height: 22px; border-radius: 6px; }
-  .banner .b-app { position: absolute; left: 83px; top: 15px; font-size: 15.56px; font-weight: 500; letter-spacing: -.31px; line-height: 19px; color: #000; }
-  .banner .b-time { position: absolute; left: 298px; top: 12px; font-size: 12.75px; font-weight: 500; letter-spacing: -.26px; line-height: 16px; color: #6b6b70; }
-  .banner .b-msg { position: absolute; left: 83px; right: 12px; top: 39.7px; font-size: 18.2px; font-weight: 500; letter-spacing: -.36px; line-height: 22px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .banner .avatar { position: absolute; left: 10px; top: 11px; width: 46px; height: 46px; }
+  .banner .k-badge { position: absolute; left: 39px; top: 40px; width: 18px; height: 18px; border-radius: 5px; }
+  .banner .b-app { position: absolute; left: 66px; top: 13px; font-size: 12.5px; font-weight: 500; letter-spacing: -.25px; line-height: 16px; color: #000; }
+  .banner .b-time { position: absolute; right: 14px; top: 13px; font-size: 10.5px; font-weight: 500; letter-spacing: -.2px; line-height: 14px; color: #6b6b70; }
+  .banner .b-msg { position: absolute; left: 66px; right: 12px; top: 33px; font-size: 14px; font-weight: 500; letter-spacing: -.28px; line-height: 18px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   /* incoming call */
   .call-name { position: absolute; left: 0; width: 393px; top: 134px; text-align: center; font-size: 38.3px; font-weight: 500; letter-spacing: -.77px; line-height: 46px; color: #fff; }
